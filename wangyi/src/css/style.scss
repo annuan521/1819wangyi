@@ -1,0 +1,8 @@
+@mixin pub($w,$h){
+    width: $w;
+    height: $h;                                 
+}
+#speak{
+    @include pub(1090px,200px);
+    background: #000;
+}
